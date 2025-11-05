@@ -1,0 +1,11 @@
+[project]
+name = "tobicoin"
+authors = ["anthony"]
+description = "Tobicoin fungible token smart contract"
+telemetry = false
+
+[contracts.tobicoin]
+path = "contracts/tobicoin.clar"
+clarity_version = 2
+epoch = "2.1"
+depends_on = []
